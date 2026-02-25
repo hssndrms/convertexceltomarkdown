@@ -9,7 +9,7 @@ has_header = st.checkbox("İlk satır başlık olarak kullanılsın", value=True
 # Kullanıcının veri girişi
 input_data = st.text_area("Excel'den kopyaladığınız veriyi buraya yapıştırın:")
 
-convert = st.button("Dönüştür",icon=":material/swap_horizontal_circle:")
+convert = st.button("Dönüştür",icon=":material/table_convert:")
 
 if convert or input_data:
     if input_data is None or input_data.strip() == "":
