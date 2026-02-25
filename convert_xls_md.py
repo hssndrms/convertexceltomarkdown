@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Excel → Markdown Dönüştürücü",
+    page_icon="🙃",  # Emoji kullanabilir
+    layout="centered"
+)
+
 st.title("Excel → Markdown Dönüştürücü")
 
 # Checkbox: İlk satır başlık mı?
